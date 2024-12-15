@@ -3,11 +3,9 @@
 #  youtube.com/@app_millers
 #  www.appmillers.com 
 
-from time import *
-from custom_package import *
+# pwd = input('Password: ')
+from getpass import getpass
 
-def func():
-    sleep(1)
-    print("www.appmillers.com")
+pwd = getpass('Password: ')
 
-func()
+print(f'Your password is: {pwd}')

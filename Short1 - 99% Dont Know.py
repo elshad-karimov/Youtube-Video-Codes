@@ -3,11 +3,9 @@
 #  youtube.com/@app_millers
 #  www.appmillers.com 
 
-from time import *
-from custom_package import *
+text = "appmillers.com"
 
-def func():
-    sleep(1)
-    print("www.appmillers.com")
-
-func()
+print(f"{text}")
+print(f"{text:*<30}")
+print(f"{text:@>30}")
+print(f"{text:.^30}")
